@@ -1,0 +1,46 @@
+/* Import Raleway font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* General styling */
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Container for images and button */
+.container {
+  position: relative;
+}
+
+/* Image styles */
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image.active {
+  opacity: 1;
+}
+#toggleButton {
+  position: absolute;
+  top: 300px; /* Adjust this value to position the button below the image */
+  left: 50;
+  right: 50;
+  background-color: #B02E0C;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px; /* Adjust this value to change the button's roundness */
+  padding: 10px 20px; /* Adjust these values to change the button's size */
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+
+
